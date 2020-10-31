@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">MarvelApp</string>
+    <string name="marvel_heros">MARVEL HEROS</string>
+    <string name="captain_america">Captain America</string>
+    <string name="Thor">Thor</string>
+    <string name="preferencefile">Avengers</string>
+</resources>

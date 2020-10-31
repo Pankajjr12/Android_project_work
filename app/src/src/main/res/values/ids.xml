@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="text1" type="id">text1</item>
+    <item name="img1" type="id">img1</item>
+    <item name="img2" type="id">img2</item>
+    <item name="img3" type="id">img3</item>
+    <item name="text4" type="id">text4</item>
+    <item name="text5" type="id">text5</item>
+    <item name="img4" type="id">img4</item>
+    <item name="img5" type="id">img5</item>
+    <item name="text7" type="id">text7</item>
+    <item name="text8" type="id">text8</item>
+    <item name="img6" type="id">img6</item>
+    <item name="text10" type="id">text10</item>
+    <item name="text11" type="id">text11</item>
+    <item name="text13" type="id">text13</item>
+    <item name="text14" type="id">text14</item>
+    <item name="text16" type="id">text16</item>
+    <item name="text17" type="id">text17</item>
+    <item name="text19" type="id">text19</item>
+    <item name="text20" type="id">text20</item>
+</resources>

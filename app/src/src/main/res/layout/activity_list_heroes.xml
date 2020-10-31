@@ -1,0 +1,320 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:text="@string/marvel_heros"
+            android:textColor="#346578"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <!--1 captain america-->
+
+        <ImageView
+            android:id="@+id/img"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:layout_marginTop="60dp"
+            android:layout_marginLeft="10dp"
+            android:src="@drawable/cap"
+            android:contentDescription="TODO" />
+        <TextView
+            android:id="@+id/text"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/captain_america"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="60dp"/>
+        <TextView
+            android:id="@id/text1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Steve Rogers"
+            android:layout_below="@id/text"
+            android:layout_toRightOf="@id/img"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/text1"
+            android:paddingLeft="10dp"
+            android:text="Captain America is a superhero appearing in American comic books published by Marvel Comics. "
+            android:textSize="14sp"/>
+
+        <!--2 thor-->
+        <ImageView
+            android:id="@id/img1"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/thor"
+            android:layout_below="@id/img"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/text3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/Thor"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img1"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="35dp"
+            android:layout_below="@id/text2"/>
+        <TextView
+            android:id="@id/text4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chris Hemisworth"
+            android:textColor="#c0c0c0"
+            android:layout_marginTop="1dp"
+            android:layout_toRightOf="@id/img1"
+            android:layout_below="@id/text3"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img1"
+            android:paddingLeft="10dp"
+            android:layout_marginTop="2dp"
+            android:layout_below="@id/text4"
+            android:text="Thor Odinson is a fictional superhero appearing in American comic books published by Marvel Comics."
+            android:textSize="14sp"/>
+
+
+        <!--3 natasha-->
+        <ImageView
+            android:id="@id/img2"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/nat"
+            android:layout_marginLeft="10dp"
+            android:layout_below="@id/img1"/>
+        <TextView
+            android:id="@+id/text6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black Widow"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img2"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/text5"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:id="@id/text7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Scarlett Johanson"
+            android:textColor="#c0c0c0"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text6"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text7"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="Natalia Romanova,Black Widow is a fictional superhero in American comic books published by Marvel Comics."
+            android:textSize="14sp"/>
+
+        <!--4 wanda-->
+        <ImageView
+            android:id="@id/img3"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/wanda"
+            android:layout_below="@id/img2"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/text9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Wanda"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img2"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/text8"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:id="@id/text10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Elizabeth Oslen"
+            android:textColor="#c0c0c0"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text9"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text10"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="The Scarlet Witch is a fictional superhero appearing in American comic published by Marvel Comics "
+            android:textSize="14sp"/>
+
+
+
+
+
+        <!--5 Doc -->
+        <ImageView
+            android:id="@id/img4"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/doc"
+            android:layout_below="@id/img3"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/text12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Doctor Strange"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img2"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/text11"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:id="@id/text13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Benedict Cumerbach"
+            android:textColor="#c0c0c0"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text12"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text13"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="Captain America is a superhero appearing in American comic books published by Marvel Comics. "
+            android:textSize="14sp"/>
+
+
+
+
+        <!--6 Black-->
+        <ImageView
+            android:id="@id/img5"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/blacck"
+            android:layout_below="@id/img4"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/text15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Black Panther"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img2"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/text14"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:id="@id/text16"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Chadwick Boseman"
+            android:textColor="#c0c0c0"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text15"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text17"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text16"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="Captain America is a superhero appearing in American comic books published by Marvel Comics. "
+            android:textSize="14sp"/>
+
+
+        <!--7 Spidey-->
+        <ImageView
+            android:id="@id/img6"
+            android:layout_width="140dp"
+            android:layout_height="140dp"
+            android:src="@drawable/spidey"
+            android:layout_below="@id/img5"
+            android:layout_marginLeft="10dp"/>
+        <TextView
+            android:id="@+id/text18"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Spiderman"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:textColor="@color/mycolor"
+            android:layout_toRightOf="@id/img2"
+            android:paddingLeft="10dp"
+            android:layout_below="@id/text17"
+            android:layout_marginTop="35dp"/>
+        <TextView
+            android:id="@id/text19"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Tom holland"
+            android:textColor="#c0c0c0"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text18"
+            android:layout_marginTop="1dp"
+            android:paddingLeft="10dp"/>
+        <TextView
+            android:id="@id/text20"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/img2"
+            android:layout_below="@id/text19"
+            android:layout_marginTop="2dp"
+            android:paddingLeft="10dp"
+            android:text="Captain America is a superhero appearing in American comic books published by Marvel Comics. "
+            android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>
+</ScrollView>
